@@ -1,0 +1,11 @@
+/.vs
+/Database/FlatfoxDatabase/.vs
+/Database/FlatfoxDatabase/FlatfoxDatabase/obj/Debug/Database.sqlproj.FileListAbsolute.txt
+/Database/FlatfoxDatabase/FlatfoxDatabase/bin/Debug
+/Database/FlatfoxDatabase/FlatfoxDatabase/obj/Debug
+/Web/.vscode
+/API/obj
+/API/bin/Debug/net6.0
+/Database/.vs/FlatfoxDatabase/FileContentIndex
+/Database/bin/Debug
+/Database/obj/Debug
