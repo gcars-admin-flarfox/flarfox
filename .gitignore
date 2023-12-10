@@ -9,3 +9,6 @@
 /Database/.vs/FlatfoxDatabase/FileContentIndex
 /Database/bin/Debug
 /Database/obj/Debug
+/API/bin/Debug/net8.0
+/Database/Database.dbmdl
+/Database/Database.jfm
