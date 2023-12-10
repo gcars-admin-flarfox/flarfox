@@ -6,6 +6,6 @@ namespace API.Services
 {
     public interface IPropertyService
     {
-        void SavePropertyDetails(PropertyDetails propertyDetails);
+        void SavePropertyDetails(Domain.PropertyDetails propertyDetails);
     }
 }
