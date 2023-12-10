@@ -1,6 +1,9 @@
-﻿namespace API.Repositories
+﻿using System.Linq;
+
+namespace API.Repositories
 {
-    public class PropertyDetailsRepository
+    public class PropertyDetailsRepository: IPropertyDetailsRepository
     {
+    
     }
 }

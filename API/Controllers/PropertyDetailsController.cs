@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using API.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -7,10 +8,6 @@ namespace API.Controllers
     [ApiController]
     public class PropertyDetailsController : ControllerBase
     {
-        [HttpPost]
-        public IActionResult SavePropertyDetails()
-        {
-            return Ok();
-        }
+        
     }
 }

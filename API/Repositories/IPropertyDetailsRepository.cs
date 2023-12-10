@@ -1,6 +1,6 @@
 ﻿namespace API.Repositories
 {
-    public class IPropertyDetailsRepository
+    public interface IPropertyDetailsRepository
     {
     }
 }
