@@ -7,6 +7,9 @@ namespace API
         public MappingProfile()
         {
             CreateMap<Model.Lookup, Domain.Lookup>();
+
+
+            CreateMap<Domain.PropertyDetails, Model.PropertyDetails>();
         }
     }
 }
