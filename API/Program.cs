@@ -1,8 +1,18 @@
+using API.Repositories;
+using API.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddAutoMapper(typeof(API.MappingProfile));
+builder.Services.AddScoped<FlatfoxDbContext>();
+builder.Services.AddScoped<ILookupRepository, LookupRepository>();
+builder.Services.AddScoped<IPropertyDetailsRepository, PropertyDetailsRepository>();
+builder.Services.AddScoped<ILookupService, LookupService>();
+builder.Services.AddScoped<IPropertyService, PropertyService>();
 
+// Add services to the container.
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -15,7 +25,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
